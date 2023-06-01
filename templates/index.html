@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+
+</head>
+<style>
+
+
+    body{
+        background-image: url(https://github.com/samay15jan/storage-box/blob/main/bg.png?raw=true);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+</style>
+
+<body>
+    <header class="text-gray-400 bg-gray-900 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <img src="https://github.com/samay15jan/storage-box/blob/main/logo.png?raw=true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-11 h-11 text-white p-0 bg-black-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </img>
+        <span class="ml-3 text-xl">StorageBox</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-white"href="https://miner15jan.pythonanywhere.com" target=”_blank”> Homepage </a>
+        <a class="mr-5 hover:text-white" href="https://github.com/samay15jan" target=”_blank”> Github </a>
+        <a class="mr-5 hover:text-white"href="https://samay15jan.github.io" target=”_blank”> About </a>
+        <a class="mr-5 hover:text-white"> :) </a>
+      </nav>
+      </button>
+    </div>
+  </header>
+  <section class="text-gray-400  body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">A hassle-free way to upload
+          <br class="hidden lg:inline-block">and store your files online
+        </h1>
+        <p class="mb-8 leading-relaxed">Our platform offers you a seamless and efficient solution to upload and store files upto size of 5MB. With our lifetime storage feature you can securely store any type of file you need, it can be documents, images, videos, or more. There is no restrictions on the file types you can upload and unique link for your file is provided for quick and convenient sharing.</p>
+        <div class="flex justify-center">
+          <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"> <a href="#get_started"> Get Started</a></button>
+        </div>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center "  src="https://github.com/samay15jan/storage-box/blob/main/1.gif?raw=true">
+      </div>
+    </div>
+  </section><hr>
+
+
+  <section class="text-gray-400 bg-gray-900 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-white mb-20">Why Choose our Free Cloud uploading solution ?
+      </h1>
+      <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+        <div class="p-4 md:w-1/3 flex">
+          <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-4 flex-shrink-0">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <div class="flex-grow pl-6">
+            <h2 class="text-white text-lg title-font font-medium mb-2">Lifetime Storage and Privacy</h2>
+            <p class="leading-relaxed text-base">Rest easy knowing that your files are securely stored for a lifetime. Even we don't even have any sort of access to your data. No more worries about running out of storage space or loosing important documents. Moreover, its a <b>opensource</b> project.</p>
+            <a class="mt-3 text-indigo-400 inline-flex items-center" href="https://github.com/samay15jan/storage-box" target="_blank">Learn More
+              <svg fill=let slideIndex = 0; stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3 flex">
+          <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-4 flex-shrink-0">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <circle cx="6" cy="6" r="3"></circle>
+              <circle cx="6" cy="18" r="3"></circle>
+              <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+            </svg>
+          </div>
+          <div class="flex-grow pl-6">
+            <h2 class="text-white text-lg title-font font-medium mb-2">All Types of Files Accepted</h2>
+            <p class="leading-relaxed text-base">Our inituitive and user-friendly interface ensures a smooth and hassle-free uploading experience. Whether it's a <b>document, photo, audio, or any oter file format</b>, we accept it all. Simply select file, hit upload, and let us take care of the rest.</p>
+            <a class="mt-3 text-indigo-400 inline-flex items-center" href="https://github.com/samay15jan/storage-box" target="_blank">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3 flex">
+          <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-4 flex-shrink-0">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <div class="flex-grow pl-6">
+            <h2 class="text-white text-lg title-font font-medium mb-2">Quick and Convenient Sharing</h2>
+            <p class="leading-relaxed text-base">We provide you with a unique link to your uploaded file, allowing you to effortlessly share it with others and with our link shortening feature sharing becomes even easier. <b>Upload, Store, Share.</b> It's as simple as that.</p>
+            <a class="mt-3 text-indigo-400 inline-flex items-center" href="https://github.com/samay15jan/storage-box" target="_blank">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <hr>
+    <section class="text-gray-400 body-font"><br>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-white mb-20" id="get_started">  Let's Begin :)</h1>
+      <div class="container mx-auto flex px-5 py-4 md:flex-row flex-col ">
+        <div class="  md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+          <img style="border-radius: 0%; "class="slideshow" src="https://github.com/samay15jan/storage-box/blob/main/2.jpg?raw=true" style="width:100%">
+          </div>
+          <div class="mySlides fade">
+          <img style="border-radius: 0%;" src="https://github.com/samay15jan/storage-box/blob/main/3.jpg?raw=true" style="width:100%">
+          </div>
+        </div>
+        <br>
+      </div>
+      <form action="/" method="post" enctype="multipart/form-data">
+        <h>Select your file which you want to upload:-</h><br><br>
+        <input  type="file" name="data"> 
+        <button type="submit" class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Upload</button> 
+      </form>
+      
+    </section><hr>
+    
+
+
+<section class="text-gray-400 bg-gray-900 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">Pricing</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">You still think we charge anything? </p>
+    </div>
+    <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+      <table class="table-auto w-full text-left whitespace-no-wrap">
+        <thead>
+          <tr>
+            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800 rounded-tl rounded-bl">Plan</th>
+            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Speed</th>
+            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Storage</th>
+            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Price</th>
+            <th class="w-10 title-font tracking-wider font-medium text-white text-sm bg-gray-800 rounded-tr rounded-br"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="px-4 py-3">Pro</td>
+            <td class="px-4 py-3">Unlimited</td>
+            <td class="px-4 py-3">Unlimited</td>
+            <td class="px-4 py-3 text-lg text-white">Free</td>
+            <td class="w-10 text-center">
+              <input name="plan" type="radio">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+    <footer class="text-gray-400 bg-gray-900  body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+            <img src="https://github.com/samay15jan/storage-box/blob/main/logo.png?raw=true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-11 h-11 text-white p-0 bg-black-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </img>
+            <span class="ml-3 text-xl">StorageBox</span>
+          </a>
+          <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2023 StorageBox —
+            <a href="https://github.com/samay15jan/" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@samay</a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            Contact: zeus15jan@gmail.com (owner)
+          </span>
+        </div>
+      </footer>
+      
+      <script>
+        let slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      } 
+      </script>
+</body>
+</html>

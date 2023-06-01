@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+   body{
+    background-image: url(https://github.com/samay15jan/storage-box/blob/main/bg.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: white;
+}
+</style>
+<body>
+    <h1 style="text-align: center;">Thank You !! </h1><br><br>
+    {% if short_url %}
+        <p style="text-align: center;">Successfully uploaded. Here is the link: <a style="color: grey;" target="_blank" href="{{ short_url }}"> {{ short_url }}</a>. Enjoy :)</p>
+    {% endif %}
+    <br><br>
+<img style="width: 30%; display: block; margin-left: auto; margin-right: auto;width: 30%;" src="https://github.com/samay15jan/storage-box/blob/main/thanku.gif?raw=true">
+</body>
+</html>
