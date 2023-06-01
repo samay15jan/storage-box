@@ -68,7 +68,7 @@ def home():
             url = "https://api.apilayer.com/short_url/hash"
             payload = link.encode("utf-8")
             headers= {
-                "apikey": "TMUxRn2yH9UIsPLKjRW1ajsiijsk1BdE"
+                "apikey": "your api key"
             }
             response = requests.request("POST", url, headers=headers, data = payload)
             result = response.text
