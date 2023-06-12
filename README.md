@@ -17,7 +17,7 @@ A free web application that allows users to store and share unlimited data files
 
 1. Clone the repository:
 ``` 
-git clone https://github.com/your-username/storage-box-webapp.git
+git clone https://github.com/samay15jan/storage-box.git
 ```
 
 2. Install the required dependencies:
